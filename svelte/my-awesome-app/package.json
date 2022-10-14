@@ -1,0 +1,17 @@
+{
+  "name": "my-awesome-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.2",
+    "cypress": "^10.10.0",
+    "svelte": "^3.49.0",
+    "vite": "^3.1.0"
+  }
+}
