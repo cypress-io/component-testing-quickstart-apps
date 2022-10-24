@@ -4,7 +4,13 @@ This is a completed version of the app from the
 [quickstart](https://docs.cypress.io/guides/component-testing/angular/quickstart)
 guide for writing component tests for Cypress with Angular.
 
-To view the working tests, go into the /angular/my-awesome-app folder and run:
+To try the app locally, first clone the quickstart repo:
+
+```bash
+git clone https://github.com/cypress-io/component-testing-quickstart-apps.git
+```
+
+Then go into the **angular/my-awesome-app** directory and run:
 
 ```bash
 npm install
