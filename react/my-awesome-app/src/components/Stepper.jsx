@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-export default function Stepper({ initial = 0, onChange = () => {} }) {
-  const [count, setCount] = useState(initial);
+export default function Stepper({ count: _count = 0, onChange = () => {} }) {
+  const [count, setCount] = useState(_count);
 
   const handleIncrement = () => {
     const newCount = count + 1;

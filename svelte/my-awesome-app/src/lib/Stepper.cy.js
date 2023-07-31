@@ -10,7 +10,7 @@ describe('Stepper', () => {
     cy.get('[data-cy=counter]').should('have.text', '0');
   });
 
-  it('supports an "initial" prop to set the value', () => {
+  it('supports a "count" prop to set the value', () => {
     cy.mount(Stepper, { props: { count: 100 } });
     cy.get('[data-cy=counter]').should('have.text', '100');
   });

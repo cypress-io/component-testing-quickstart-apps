@@ -1,7 +1,7 @@
 # Cypress Component Testing Quickstart App for Vue.
 
 This is a completed version of the app from the
-[quickstart](https://docs.cypress.io/guides/component-testing/vue/quickstart)
+[quickstart](https://docs.cypress.io/guides/component-testing/getting-started)
 guide for writing component tests for Cypress with Vue.
 
 To try the app locally, first clone the quickstart repo:

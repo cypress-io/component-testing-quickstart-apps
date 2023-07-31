@@ -1,7 +1,7 @@
 # Cypress Component Testing Quickstart App for React.
 
 This is a completed version of the app from the
-[quickstart](https://docs.cypress.io/guides/component-testing/react/quickstart)
+[quickstart](https://docs.cypress.io/guides/component-testing/getting-started)
 guide for writing component tests for Cypress with React.
 
 To try the app locally, first clone the quickstart repo:
