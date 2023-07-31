@@ -8,11 +8,11 @@
 
 <script setup>
   import { ref } from 'vue'
-  const props = defineProps(['initial'])
+  const props = defineProps(['count'])
 
   const emit = defineEmits(['change'])
 
-  const count = ref(props.initial || 0)
+  const count = ref(props.count || 0)
 
   const increment = () => {
     count.value++
