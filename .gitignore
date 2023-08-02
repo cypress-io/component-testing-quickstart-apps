@@ -40,3 +40,8 @@ typings
 # System files
 .DS_Store
 Thumbs.db
+
+# Cypress temporary assets
+*/my-awesome-app/cypress/downloads
+*/my-awesome-app/cypress/screenshots
+*/my-awesome-app/cypress/videos
