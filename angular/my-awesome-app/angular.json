@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "my-awesome-app:build:production"
+              "buildTarget": "my-awesome-app:build:production"
             },
             "development": {
-              "browserTarget": "my-awesome-app:build:development"
+              "buildTarget": "my-awesome-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-awesome-app:build"
+            "buildTarget": "my-awesome-app:build"
           }
         },
         "test": {
