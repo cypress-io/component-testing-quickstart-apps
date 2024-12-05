@@ -28,13 +28,9 @@ describe('Stepper', () => {
   });
 
   it('clicking + fires a change event with the incremented value', () => {
-    const changeSpy = cy.spy().as('changeSpy');
-    cy.mount(Stepper).then(({ component }) => {
-      component.$on('change', changeSpy);
-    });
-    cy.get('[data-cy=increment]').click();
-    cy.get('@changeSpy').should('have.been.calledWithMatch', {
-      detail: { count: 1 },
-    });
+    const onChangeSpy = cy.spy().as('onChangeSpy')
+    cy.mount(Stepper, { props: { onChange: onChangeSpy } })
+    cy.get('[data-cy=increment]').click()
+    cy.get('@onChangeSpy').should('have.been.calledWith', 1)
   });
 });
