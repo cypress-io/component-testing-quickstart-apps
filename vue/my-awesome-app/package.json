@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
-    "cypress": "^14.0.0",
-    "vite": "^6.0.1"
+    "cypress": "^14.1.0",
+    "vite": "^6.2.1"
   }
 }
