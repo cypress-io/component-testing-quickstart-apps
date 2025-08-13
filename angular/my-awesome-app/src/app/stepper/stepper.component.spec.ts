@@ -7,11 +7,6 @@ describe('StepperComponent', () => {
   let fixture: ComponentFixture<StepperComponent>;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ StepperComponent ]
-    })
-    .compileComponents();
-
     fixture = TestBed.createComponent(StepperComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
