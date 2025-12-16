@@ -1,5 +1,5 @@
 import { StepperComponent } from './stepper.component';
-import { createOutputSpy } from 'cypress/angular';
+import { createOutputSpy } from 'cypress/angular-zoneless';
 
 describe('StepperComponent', () => {
   it('mounts', () => {
