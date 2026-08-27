@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.0.0",
-    "cypress": "^15.14.0",
+    "cypress": "https://cdn.cypress.io/beta/npm/16.0.0/linux-x64/release/16.0.0-3bcc0e1576ea6253d908bc1a9d328b34ad0aeaf1/cypress.tgz",
     "svelte": "^5.55.2",
-    "vite": "^8.0.8"
+    "vite": "^8.2.2"
   }
 }
