@@ -38,7 +38,7 @@
     "@angular/cli": "^22.0.0",
     "@angular/compiler-cli": "^22.0.0",
     "@angular/platform-browser-dynamic": "^22.0.0",
-    "cypress": "https://cdn.cypress.io/beta/npm/16.0.0/linux-x64/release/16.0.0-3bcc0e1576ea6253d908bc1a9d328b34ad0aeaf1/cypress.tgz",
+    "cypress": "^16.0.0",
     "jsdom": "^27.1.0",
     "typescript": "~6.0.3",
     "vitest": "^4.0.8"
